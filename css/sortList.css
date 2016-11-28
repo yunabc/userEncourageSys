@@ -1,0 +1,114 @@
+/*大神榜*/
+.sort-list{
+	max-width:420px;
+	position: relative;
+	background-color:#fff; 
+}
+.list-header0{
+	background-color:#eaedf6; 
+}
+.sort-list-header{
+	font-size: 18px;
+	line-height: 44px;
+	height: 44px;
+	margin-left: 20px;
+	color: #2a2a2a;
+
+}
+.sort-btns{
+	line-height: 44px;
+	color: #cececf;
+}
+.sort-btn{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 44px;
+	height: 44px;
+	padding:0 20px;
+	color: #4d4d4d;
+	cursor: pointer;
+}
+.sort-btn.on{
+	color: #2781fb;
+}
+.opop-item-img{
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+}
+.sl-option{
+	display: none;
+}
+.sl-option.on{
+	display: block;
+}
+.sl-op-op{
+	display: table;
+	padding: 20px;
+	width: 100%;
+}
+.opop-left{
+	display: table-cell;
+	width: 44px;
+	vertical-align: top;
+}
+.opop-l-link{
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+}
+.opop-right{
+	display: table-cell;
+	position: relative;
+	vertical-align: top;
+}
+.op-r-h{
+	padding-left:10px;
+	line-height: 22px;
+	height: 22px; 
+}
+.op-r-h>a{
+	color: #1d7dff;
+}
+.op-r-s{
+	padding-left:30px;
+	line-height: 22px;
+	height: 22px; 
+	color: #838383;
+	background: url(../images/icon-shengwang.png) 10px 3px no-repeat;
+}
+.op-r-sheng{
+	background-position: 10px 3px;
+}
+.op-r-jifen{
+	background-position: 10px -21px;
+}
+.op-r-xiaofei{
+	background-position: 10px -44px;
+
+}
+.list-num00{
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	right: 20px;
+	top: 8px;
+
+}
+.list-num1{
+	background: url(../images/list-num1.jpg) 0 no-repeat;
+	background-size: contain;
+}
+.list-num2{
+	background: url(../images/list-num2.jpg) 0 no-repeat;
+	background-size: contain;
+}
+.list-num3{
+	background: url(../images/list-num3.jpg) 0 no-repeat;
+	background-size: contain;
+}
+}
+.list-num00 img{
+	width: 100%;
+}
+/*大神榜 结束*/

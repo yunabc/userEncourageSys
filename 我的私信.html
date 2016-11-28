@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>我的私信</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/screen.css">
+    <link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/sixin.css">
+    <script type="text/javascript">
+         window.addEventListener('DOMContentLoaded', function (){
+              document.addEventListener('touchstart', function (){return false}, true)
+         }, true);
+
+    </script>
+</head>
+<body>
+    <!-- 导航 开始 -->
+    <div class="header-box">
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <ul class="nav navbar-nav web-hide joyme-nav-l">
+                        <li><a href="javascript:;">返回着迷首页&gt;&gt;</a></li>
+                        <li><a href="javascript:;">手游咨询</a></li>
+                        <li><a href="javascript:;">着迷评测</a></li>
+                        <li><a href="javascript:;">着迷WIKI</a></li>
+                        <li><a href="javascript:;">礼包中心</a></li>
+                        <li><a href="javascript:;">精品推荐</a></li>
+                        <li><a href="javascript:;">应用下载</a></li>
+                    </ul>
+
+                    <div class="nav navbar-nav  joyme-nav-r navbar-right">
+                        <!-- 未登录 开始 -->
+                        <div class="unloading fn-clear" style="display: none;">
+                           <!--  <a href="javascript:;" class="weibo-login" title="微博登陆">微博登陆</a>
+                            <a href="javascript:;" class="qq-login" title="QQ登陆">QQ登陆</a> -->
+                            <a href="javascript:;" class="login login-mask">登陆</a>
+                            <a href="javascript:;" class="register register-mask">注册</a>
+                        </div>
+                        <!-- 未登录 结束 -->
+                        <!-- 登陆之后 开始-->
+                        <div class="lading"   >
+                            <a href="javascript:;" class="user-icon"><img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon.jpg"></a>
+                            <div class="dropdown setting-box pull-down dropdown-nor web-hide">
+                                <a data-toggle="dropdown" class="dropdown-toggle" role="button">
+                                     <b class="caret setting-caret web-hide"></b> 
+                                     <!-- <cite class="navbar-toggle">
+                                         <span class="icon-bar"></span>
+                                         <span class="icon-bar"></span>
+                                         <span class="icon-bar"></span>
+                                     </cite> -->
+                                </a>
+                                <ul class="dropdown-menu" role="menu"> 
+                                    <li><a href="http://www.bootcss.com/">我的收藏</a></li>
+                                    <li><a href="https://www.baidu.com/">设置</a></li>
+                                    <li><a href="http://www.bootcss.com/">退出</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown notice-box pull-down dropdown-nor">
+                                <a data-toggle="dropdown" class="dropdown-toggle" role="button">
+                                    <i class="fa fa-bell-o col-xs-show" aria-hidden="true"></i>
+                                    提醒
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu notice-list" aria-labelledby="提醒" role="menu"> 
+                                    <li><a href="http://www.bootcss.com/">@我的 <b>99+</b></a></li>
+                                    <li><a href="#">评论</a></li>
+                                    <li><a href="#">赞 <b>12</b></a></li>
+                                    <li><a href="#">关注 <b>1</b></a></li>
+                                    <li><a href="#">通知 <b>1</b></a></li>
+                                </ul>
+                            </div>
+                            <a href="javascript:;" class="letter "><b>11</b><i class="fa fa-envelope-o" aria-hidden="true"></i>私信</a>
+                            <div class="dropdown setting-box pull-down dropdown-nor">
+                                <a data-toggle="dropdown" class="dropdown-toggle" role="button">
+                                     <cite class="navbar-toggle">
+                                         <span class="icon-bar"></span>
+                                         <span class="icon-bar"></span>
+                                         <span class="icon-bar"></span>
+                                     </cite>
+                                </a>
+                                <ul class="dropdown-menu" role="menu"> 
+                                    <li><a href="http://www.bootcss.com/">我的收藏</a></li>
+                                    <li><a href="https://www.baidu.com/">设置</a></li> 
+                                    <li><a href="http://www.bootcss.com/">退出</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                         <!-- 登陆之后 结束-->
+                    </div>
+                  <a class="navbar-brand visible-xs joyme-logo" href="javascript:;"><img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/images/logo.png"></a>
+                </div>
+                <!--  <div class="navbar-collapse collapse" id="main-nav-top">
+                 </div> -->
+            </div>
+        </div> 
+    </div>
+    <!-- 导航 结束 -->
+    <!-- 内容区  开始 -->
+    <div class="container">
+        <div class="row">
+            <!-- 左侧区域 开始 -->
+            <div class="col-md-9">
+                <div id="main">
+                    <div class="sixin-list-box ">
+                        <h1 class="page-h1 pag-hor-20 fn-clear web-hide">私信 <span class="del-all fn-right"><i class="fa fa-trash-o"></i>清空所有</span></h1>
+                        <div class="letter-tit  web-common-tit web-show ">
+                            <a href="javascript:;" class="lettering on">私信</a>
+                            <a href="javascript:;" class="unletter">未关注人私信</a>
+                        </div>
+                        <ul class="sixin-list list-item ">
+                            <li>
+                                <a href="javascript:;" class="fn-clear">
+                                    <div class="list-item-l">
+                                        <cite><img src="img/user-icon-l.jpg"><i class="news-count on">22</i></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一爱福克斯的罚款圣达菲阿克苏大家伙的发卡号是大军阀是客户端饭按时快递费加快速度发卡上大法师的客服号开户费阿斯顿回复块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                       <cite><img src="img/user-icon-l.jpg"><i class="news-count">2</i></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                       <cite><img src="img/user-icon-l.jpg"><i class="news-count">2</i></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                       <cite><img src="img/user-icon-l.jpg"><i class="news-count">2</i></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                       <cite><img src="img/user-icon-l.jpg"><i class="news-count">2</i></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                       <cite><img src="img/user-icon-l.jpg"><i class="news-count">2</i></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                       <cite><img src="img/user-icon-l.jpg"><i class="news-count">2</i></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                       <cite><img src="img/user-icon-l.jpg"><i class="news-count">2</i></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                       <cite><img src="img/user-icon-l.jpg"><i class="news-count">2</i></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                        <cite><img src="img/user-icon-l.jpg"></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                        <cite><img src="img/user-icon-l.jpg"></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                        <cite><img src="img/user-icon-l.jpg"></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                        <cite><img src="img/user-icon-l.jpg"></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                        <cite><img src="img/user-icon-l.jpg"></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                        <cite><img src="img/user-icon-l.jpg"></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                             <li>
+                                <a href="javascript:;">
+                                    <div class="list-item-l">
+                                        <cite><img src="img/user-icon-l.jpg"></cite>
+                                    </div>
+                                    <div class="list-item-r">
+                                        <div class="item-r-name fn-clear">
+                                            <span class="fn-left">用户昵称</span>
+                                            <b class="time-stamp fn-right">2016年1月28日 18:27</b>
+                                        </div>
+                                        <div class="item-r-text">
+                                            咱们一块创建魔兽世界的WIKI吧，咱俩一起写出来的东西肯定特别棒！！
+                                        </div>
+                                    </div>
+                                </a>
+                                 <i class="del-icon"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="paging web-hide">
+                        <a href="javascript:;">首页</a>
+                        <a href="javascript:;" class="on">1</a>
+                        <a href="javascript:;">2</a>
+                        <a href="javascript:;">3</a>
+                        <a href="javascript:;">4</a>
+                        <a href="javascript:;">5</a>
+                        <a href="javascript:;">6</a>
+                        <a href="javascript:;">7</a>
+                        <a href="javascript:;" class="next">下一页</a>
+                        <a href="javascript:;" class="last">末页</a>
+                        <a href="javascript:;" class="count-num">共<b>14</b>页<b>274</b>条</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 左侧区域 结束 -->
+            <!-- 右侧区域  开始 -->
+            <div class="col-md-3 web-hide ">
+                <div id="sidebar">
+                    <div class="user-mess-box">
+                        <div class="user-int-mess">
+                            <a href="javascript:;"><img src="img/user-icon-l.jpg"></a>
+                            <font class="nickname">用户昵称哦</font>
+                            <i class="user-sex man"></i>
+                        </div>
+                        <div class="user-messing">
+                            <a href="javascript:;" class="lettering on">私信<i>44</i></a>
+                            <a href="javascript:;" class="unletter">未关注人私信<i>22</i></a>
+                        </div>
+                    </div>
+                    <!-- 广告位  开始 -->
+                    <div class="ad-con">
+                        <cite><img src="img/ad-img.jpg"><i>活动</i></cite>
+                    </div>
+                    <!-- 广告位  结束 -->
+                </div>
+            </div>
+            <!-- 右侧区域  开始 -->
+        </div>
+    </div>
+    <!-- 内容区  结束 -->
+    <!-- 页脚 开始 -->
+    <div id="footer" class="footer">
+        <div class="container footer-pc">
+            <div class="footer-con row web-hide">
+                <span>© 2011－2016 joyme.com, all rights reserved</span>
+                <a href="http://www.joyme.com/help/aboutus" target="_blank" rel="nofollow">关于着迷</a> |
+                <a href="http://www.joyme.com/about/products" target="_blank" rel="nofollow">着迷产品</a> |
+                <a href="http://www.joyme.com/help/milestone" target="_blank" rel="nofollow">着迷大事记</a> |
+                <a href="http://www.joyme.com/gopublic/" target="_blank">着迷·新三板</a> |
+                <a href="http://www.joyme.com/about/press" target="_blank" rel="nofollow">媒体报道</a> |
+                <a href="http://www.joyme.com/about/business" target="_blank" rel="nofollow">商务合作</a> |
+                <a href="http://www.joyme.com/about/job/zhaopin" target="_blank" rel="nofollow">加入着迷</a> |
+                <a href="http://www.joyme.com/about/contactus" target="_blank" rel="nofollow">联系我们</a>|
+                <a href="http://www.joyme.com/help/law/parentsprotect" target="_blank" rel="nofollow">家长监护</a>|
+                <a href="http://www.joyme.com/sitemap.htm" target="_blank">网站地图</a>
+                <br>
+                <br>
+                <span>北京乐享方登网络科技股份有限公司</span>
+                <span> 北京市海淀区知春路27号11层1107室&nbsp;&nbsp;&nbsp;客服电话：010-51292727</span>
+                <span><a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备11029291号</a></span>
+                <span>京公网安备110108001706号</span>
+                <span><a href="http://joymepic.joyme.com/article/uploads/allimg/201603/1457504308371218.jpg" target="_blank">京网文[2014]0925-225号</a></span>
+            </div>
+            <div class="row web-show">
+                 <p>
+                    <span><a href="http://www.joyme.com/#wappc" class="joyme-pc">访问着迷网电脑版</a></span>
+                    <span><a href="http://m.joyme.com" class="joyme-phone">访问着迷网手机版</a></span>
+                </p>
+                <p>2011－2016 joyme.com, all rights reserved</p>
+            </div>
+       </div>
+    </div>
+    <!-- 页脚 结束 -->
+    <script type="text/javascript" src="http://static.joyme.com/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/action.js"></script>
+    <script type="text/javascript">
+    $(function(){
+        //  function aa(){
+        //     W = $(window).width();
+        //     if(W<992){
+        //         load_type = 'shu';
+        //         loadMore.init('list-item');
+        //     }else{
+        //         load_type = 'heng';
+        //     }
+        //  }
+        // $(window).resize(function(){
+        //     aa();
+        // });
+        // aa();
+        LoadMore.init('list-item','aa','aa');
+    });
+    </script>
+</body>
+</html>

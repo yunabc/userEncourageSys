@@ -1,0 +1,66 @@
+.talking-box{height:730px;padding:0 50px;}
+.talking-box  h3{height:58px;line-height:50px;}
+.talking-box  h3 a{color:#2a2a2a;font-size:14px;line-height: 22px;}
+.talking-box  h3 a i{font-size:16px;}
+.talk-box{border:1px solid #efefef;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;height:620px;overflow: hidden;}
+.talk-tit{font-size:0;padding:15px 30px;background-color: #f5f5f5;}
+.talk-tit cite,.talk-tit span{display: inline-block;vertical-align: middle;font-size:16px;color:#2a2a2a;}
+.talk-tit cite{width:38px;height:38px;line-height: 38px;text-align: center;background-color: #3988fb;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;margin-right:10px;}
+
+
+.talk-tit cite .fa{color:#fff;vertical-align: 1px;}
+
+
+.talk-tit span a{color:#3988fb;}
+.talk-tit-box p{color:#989898;font-size:14px;text-align: center;background-color: #fed5db;line-height: 22px;padding:5px 0;}
+.talk-cont-con{height:366px;overflow-y:scroll;}
+.talk-r,.talk-l{font-size:0;position: relative;overflow: hidden;min-height:55px;margin-bottom:10px;}
+.talk-r{text-align: right;padding:0 85px 0 30px;}
+.talk-l{text-align: left;padding:0 30px 0 85px;}
+.talk-r cite,.talk-l cite{vertical-align: top;width:55px;height:55px;overflow: hidden;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;position: absolute;top:0px;}
+.talk-l cite{left:30px;}
+.talk-r cite img,.talk-l cite img{width:100%;}
+.talk-r cite{right:30px;}
+.talk-r>div,.talk-l div{display: inline-block;position: relative;vertical-align: middle;line-height: 22px;background-color: #3988fb;color:#fff;font-size:14px;padding:9px ;text-align: left;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;margin-top:7px;}
+.talk-l div{margin-left:10px;}
+.talk-r>div{margin-right:10px;}
+
+/*开始*/
+.talk-r>div:before,.talk-l>div:before,.talk-r>div:after,.talk-l>div:after{content: "";position: absolute;top:50%;}
+.talk-r>div:before,.talk-l>div:before{width:0;height:0;border-top:6px solid transparent;bor der-bottom:6px solid transparent;top:50%;margin-top:-6px;}
+.talk-r>div:before{right:-6px;border-left:6px solid #3988fb;}
+.talk-l>div:before{left:-6px;border-right:6px solid #3988fb;}
+.talk-r>div.send-error:after,.talk-l>div.send-error:after{}
+.talk-r>div.sending:after,.talk-l>div.sending:after{}
+/*结束*/
+
+.talk-time,.more-new {text-align: center;color:#d9d7d7;padding:5px 0;}
+.more-new {padding:10px 0;}
+.more-new a{color:#777;} 
+.talk-text{background-color: #f5f5f5;border-top:1px solid #efefef;height:155px;padding:0 30px;position: relative;}
+.talk-text-bq{padding:10px 0;}
+.talk-text-bq i{font-size:20px;cursor: pointer;}
+.talk-input{font-size:0;}
+.talk-input textarea{resize: none;width:100%;height:62px; padding:10px;font-size:14px;border:1px solid #efefef;}
+.talk-send{position: relative;padding-top:10px;}
+.talk-text .i-error{line-height: 30px;font-size:12px;color:red;display: none;position: absolute;bottom:10px;left:30px;}
+.talk-text.on .i-error{display: block;}
+.talk-btn{width:90px;height:30px;line-height: 28px;text-align: center;background-color: #fff;color:#2a2a2a;border:1px solid #c1c1c1;-webkit-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.cancel-flo{position: absolute;top:0;right:0;bottom:0;left:0;background-color: rgba(0,0,0,.5);color:#fff;font-size:14px;text-align: center;line-height: 154px;display: none;}
+.cancel-flo.on{display: block;}
+@media(max-width:767px){
+	.talking-box{padding:0;}
+	.talk-tit{padding:5px 10px;}
+	.talk-tit cite .fa{padding:0;}
+	.talk-r{padding:0 65px  0 10px;}
+	.talk-l{padding:0 10px 0 65px;}
+	.talk-r cite{right:10px;}
+	.talk-l cite{left:10px;}
+	.talk-text{padding:9px 10px 5px;height:auto;position: fixed;bottom:0;left:0;right:0;z-index: 99;}
+	.talk-text-bq{padding:5px 0;position: absolute;top:45px;left:10px;}
+	.talk-input{width:100%;font-size:0;}
+	.talk-input textarea{height:30px;padding:3px 5px;border-radius: 5px;font-size:14px;}
+	.talking-box,.talk-box{height:auto;}
+	.talk-text .i-error{position: relative;bottom:0;left:0;}
+	.cancel-flo{line-height: 84px;}
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{padding:0;margin:0;}
+	.select-area{
+	  position: relative;
+	  overflow: hidden;
+	  width:100px;
+	  text-align: center;
+	  
+	  margin:20px auto;
+	}
+	.select-area select{
+	  position: absolute;
+	  left: 0;
+	  top: 0;
+	  opacity: 0;
+	  width: 100%;
+	  font-size:14px;
+	  line-height: 30px;
+	  height:30px;
+	  max-height:100px;
+	  overflow:hidden;
+	}
+	.select-value{
+		display: block;
+		height:30px;
+	  border:1px solid red;
+	  line-height: 30px;}
+	  .select-area select option{line-height: 30px;}
+	</style>
+	<link rel="stylesheet" type="text/css" href="http://wiki.joyme.com/pocketmon/load.php?debug=false&lang=zh-cn&modules=ext.visualEditor.viewPageTarget.noscript%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.joyme1.styles&only=styles&skin=joyme1&*">
+</head>
+<body>
+	<div class="select-area">
+		<span class="select-value">大家好</span>
+		<select>
+		
+		<option>甘肃</option>
+		<option>兰州</option>
+		<option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option>
+		</select>
+	</div>
+	<div class="select-area">
+		<span class="select-value">大家好</span>
+		<select>
+		
+		<option>甘肃</option>
+		<option>兰州</option>
+		<option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option><option>甘肃</option>
+		<option>兰州</option>
+		</select>
+	</div>
+	<script type="text/javascript" src="http://static.joyme.com/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript">
+		
+		$(".select-area select").change(function(){
+			
+		    var value = $(this).find("option:selected").text();
+		    $(this).parent(".select-area").find(".select-value").text(value);
+		});
+		$(".select-area select").click(function(){
+			if($(this).hasClass('on')){
+				$(this).removeClass('on');
+				$(this).parent(".select-area").find(".select-value").css({'borderColor':'red'});
+			}else{
+				$(this).addClass('on');
+				$(this).parent(".select-area").find(".select-value").css({'borderColor':'green'});
+			}
+			
+
+		})
+		
+	</script>
+</body>
+</html>

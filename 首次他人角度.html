@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>首次他人角度</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" href="css/screen.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript">
+         window.addEventListener('DOMContentLoaded', function (){
+              document.addEventListener('touchstart', function (){return false}, true)
+         }, true);
+
+    </script>
+</head>
+<body>
+<div class="header-box">
+        <div class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <ul class="nav navbar-nav web-hide joyme-nav-l">
+                        <li><a href="javascript:;">返回着迷首页&gt;&gt;</a></li>
+                        <li><a href="javascript:;">手游咨询</a></li>
+                        <li><a href="javascript:;">着迷评测</a></li>
+                        <li><a href="javascript:;">着迷WIKI</a></li>
+                        <li><a href="javascript:;">礼包中心</a></li>
+                        <li><a href="javascript:;">精品推荐</a></li>
+                        <li><a href="javascript:;">应用下载</a></li>
+                    </ul>
+
+                    <div class="nav navbar-nav  joyme-nav-r navbar-right">
+                        <!-- 未登录 开始 -->
+                        <div class="unloading fn-clear" style="display: none;">
+                           <!--  <a href="javascript:;" class="weibo-login" title="微博登陆">微博登陆</a>
+                            <a href="javascript:;" class="qq-login" title="QQ登陆">QQ登陆</a> -->
+                            <a href="javascript:;" class="login login-mask">登陆</a>
+                            <a href="javascript:;" class="register register-mask">注册</a>
+                        </div>
+                        <!-- 未登录 结束 -->
+                        <!-- 登陆之后 开始-->
+                        <div class="lading"   >
+                            <a href="javascript:;" class="user-icon"><img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon.jpg"></a>
+                            <div class="dropdown setting-box pull-down dropdown-nor web-hide">
+                                <a data-toggle="dropdown" class="dropdown-toggle" role="button">
+                                     <b class="caret setting-caret web-hide"></b> 
+                                     <!-- <cite class="navbar-toggle">
+                                         <span class="icon-bar"></span>
+                                         <span class="icon-bar"></span>
+                                         <span class="icon-bar"></span>
+                                     </cite> -->
+                                </a>
+                                <ul class="dropdown-menu" role="menu"> 
+                                    <li><a href="http://www.bootcss.com/">我的收藏</a></li>
+                                    <li><a href="https://www.baidu.com/">设置</a></li>
+                                    <li><a href="http://www.bootcss.com/">退出</a></li>
+                                </ul>
+                            </div>
+                            <div class="dropdown notice-box pull-down dropdown-nor">
+                                <a data-toggle="dropdown" class="dropdown-toggle" role="button">
+                                    <i class="fa fa-bell-o col-xs-show" aria-hidden="true"></i>
+                                    提醒
+                                    <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu notice-list" aria-labelledby="提醒" role="menu"> 
+                                    <li><a href="http://www.bootcss.com/">@我的 <b>99+</b></a></li>
+                                    <li><a href="#">评论</a></li>
+                                    <li><a href="#">赞 <b>12</b></a></li>
+                                    <li><a href="#">关注 <b>1</b></a></li>
+                                    <li><a href="#">通知 <b>1</b></a></li>
+                                </ul>
+                            </div>
+                            <a href="javascript:;" class="letter "><b>11</b><i class="fa fa-envelope-o" aria-hidden="true"></i>私信</a>
+                            <div class="dropdown setting-box pull-down dropdown-nor">
+                                <a data-toggle="dropdown" class="dropdown-toggle" role="button">
+                                     <cite class="navbar-toggle">
+                                         <span class="icon-bar"></span>
+                                         <span class="icon-bar"></span>
+                                         <span class="icon-bar"></span>
+                                     </cite>
+                                </a>
+                                <ul class="dropdown-menu" role="menu"> 
+                                    <li><a href="http://www.bootcss.com/">我的收藏</a></li>
+                                    <li><a href="https://www.baidu.com/">设置</a></li> 
+                                    <li><a href="http://www.bootcss.com/">退出</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                         <!-- 登陆之后 结束-->
+                    </div>
+                  <a class="navbar-brand visible-xs joyme-logo" href="javascript:;"><img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/images/logo.png"></a>
+                </div>
+                <!--  <div class="navbar-collapse collapse" id="main-nav-top">
+                 </div> -->
+            </div>
+        </div> 
+    </div>
+    <div class="container">
+    	<div class=" personal-info fn-clear col-sm-12">
+                <div class="fn-clear">
+                <div class="col-md-10 info-r fn-clear">
+                    <div class="info-user  fn-clear">
+                        <div>
+                             <a href="javascript:;" class="user-login"><img src="img/wiki-icon.png" alt="">
+                            </a>
+                            <div class="user-intro-con">
+                                <cite class="user-des fn-clear">
+                                    <font class="nickname">admin</font>
+                                    <i class="user-sex female"></i>
+                                    <i class="user-sex man"></i>
+                                </cite>
+                                <a href="javascript:;" class="user-intr">一句话介绍下自己吧！</a>
+                                <div class="fn-clear gz-sx-con">
+                                    <a href="javascript:;" class="gz-icon">关注</a>
+                                    <a href="javascript:;" class="sx-icon">私信</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="javascript:;" class="info-edit-num ">
+                        <cite class="count-num">
+                            <font><i>0</i>次</font>
+                            总共编辑
+                        </cite>
+                        <cite class="day-num">
+                            <font><i>0</i>次</font>
+                            今日编辑
+                        </cite>
+                    </a>
+                </div>
+                <div class="col-md-2 look-con fn-clear">
+                    <a href="javascript:;" class="follow-num"><i>0</i>关注</a>
+                    <a href="javascript:;" class="fans-num"><i>0</i>粉丝</a>
+                    <a href="javascript:;" class="zan-num un-link"><i>0</i>被赞</a>
+                    <a href="javascript:;" class="dis-num un-link"><i>0</i>被评</a>
+                </div>
+                </div>
+        </div>
+        <div class="">
+            <div  class="col-md-9">
+                <div id="main" class="pag-hor-20 tab-box">
+                     <div class="trends-nav fn-clear tab-tit">
+                        <a href="javascript:;" class="on" >他的WIKI<i></i></a>
+                        <a href="javascript:;">他的动态<i></i></a>
+                    </div>
+                    <div class="tab-con">
+                        <!--他的WIKI 开始-->
+                        <div class="trends-con on">
+                            <div class="no-date">您还没有关注，贡献或管理任何WIKI</div>
+                            <!--管理WIKI  开始-->
+                            <div class="manage-list">
+                                <h3 class="list-tit glwiki-tit"><i></i>管理Wiki</h3>
+                                <ul class="manage-item  fn-clear">
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;" class="fn-clear">
+                                            <b class="manager web-hide">管理员</b>
+                                            <div class="col-sm-12">
+                                                 <cite>
+                                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="">
+                                                    <i>管理员</i>
+                                                </cite>
+                                            </div>
+                                            <div class="manager-text col-sm-12">
+                                                <font>坦克大战WIKI</font>
+                                                <span>页面总数量：40,302 </span>
+                                                <span>编辑总次数：2,800  </span>
+                                            </div>
+                                            <i class="count-icon web-hide"></i>
+                                            <div class="web-hide add-edit">
+                                                <span>关注人数：40,302 </span>
+                                                <span>编辑人数：2,800  </span>
+                                                <span>昨日编辑：2,800  </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                       <a href="javascript:;" class="fn-clear">
+                                            <b class="manager web-hide">管理员</b>
+                                            <div class="col-sm-12">
+                                                 <cite>
+                                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="">
+                                                    <i>管理员</i>
+                                                </cite>
+                                            </div>
+                                            <div class="manager-text col-sm-12">
+                                                <font>坦克大战WIKI</font>
+                                                <span>页面总数量：40,302 </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;" class="fn-clear">
+                                            <b class="manager web-hide">管理员</b>
+                                            <div class="col-sm-12">
+                                                 <cite>
+                                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="">
+                                                    <i>管理员</i>
+                                                </cite>
+                                            </div>
+                                            <div class="manager-text col-sm-12">
+                                                <font>坦克大战WIKI</font>
+                                                <span>页面总数量：40,302 </span>
+                                                <span>编辑总次数：2,800  </span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="more-con">
+                                    <a href="javascript:;">点击加载更多...</a>
+                                </div>
+                            </div>
+                            <!--管理WIKI 结束-->
+                            <!--贡献的wiki  开始 -->
+                            <div class="tj-list " >
+                                <h3 class="list-tit gxwiki-tit"><i></i>贡献的wiki</h3>
+                                <ul class="list-item fn-clear ">
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>贡献总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                 <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>贡献总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>贡献总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>贡献总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                 <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>贡献总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>贡献总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                 <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>贡献总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                   <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>贡献总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                 <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>贡献总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--贡献的wiki  结束 -->
+                            <!--关注的wiki  开始 -->
+                            <div class="tj-list ">
+                                <h3 class="list-tit gzwiki-tit"><i></i>关注的wiki</h3>
+                                <ul class="list-item fn-clear row">
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>页面总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                 <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>页面总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b></b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                 <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>页面总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b></b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                 <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>页面总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--关注的wiki  结束 -->
+                            <!--热门WIKI推荐 开始-->
+                            <div class="tj-list " >
+                                <h3 class="list-tit hotwiki-tit"><i></i>热门WIKI推荐</h3>
+                                <ul class="list-item fn-clear row">
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>页面总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                 <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>页面总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b></b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                 <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>页面总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b></b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                 <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>页面总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b></b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                 <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>页面总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b></b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                 <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b>页面总数：40,000</b>
+                                                <b>昨日编辑：1,000</b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b></b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b></b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b></b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b></b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="col-sm-4">
+                                        <a href="javascript:;">
+                                            <cite>
+                                                <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/wiki-icon.png" alt="img">
+                                            </cite>
+                                            <span>
+                                                <font>克鲁赛德战记WIKI</font>
+                                                <b></b>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="more-con">
+                                    <a href="javascript:;">更多WIKI</a>
+                                </div>
+                            </div>
+                            <!--热门WIKI推荐 结束-->
+                        </div>
+                        <!--他的wiki 结束-->
+                        <!--他的动态 开始-->
+                        <div class="my-trends-con" >
+                            <ul class="my-trends-list">
+                                <li>
+                                    <p>
+                                        <i>他</i>编辑了页面<a href="javascript:;">坦克指挥官页面</a>
+                                        <b class="time-stamp">2016年1月28日 18:27</b>
+                                    </p>
+                                </li>
+                                 <li>
+                                    <p>
+                                        <i>他</i>编辑了页面<a href="javascript:;">坦克指挥官页面</a>
+                                        <b class="time-stamp">2016年1月28日 18:27</b>
+                                    </p>
+                                </li>
+                                 <li>
+                                    <p>
+                                        <i>他</i>编辑了页面<a href="javascript:;">坦克指挥官页面</a>
+                                        <b class="time-stamp">2016年1月28日 18:27</b>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- 他的动态 结束-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 web-hide ">
+                <div id="sidebar">
+                    <!--他的关注  开始-->
+                    <div class="fans-box fn-clear pag-hor-20">
+                        <h3>他的关注<a href="javascript:;" class="fn-right" style="display:none">更多</a></h3>
+                        <!--他没有粉丝、关注时  开始-->
+                        <div class="no-fans">
+                            <p><i></i>他还没有关注任何人</p>
+                        </div>
+                        <!--他没有粉丝、关注时  结束-->
+                        <div class="row fans-con" style="display:none">
+                            <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                            <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                            <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                            <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                             <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                            <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                             <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                            <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户</font>
+                            </a>
+                        </div>
+                    </div>
+                    <!--他的关注  结束-->
+                    <!--他的粉丝  开始-->
+                    <div class="fans-box fn-clear pag-hor-20">
+                        <h3>他的粉丝<a href="javascript:;" class="fn-right" style="display:none">更多</a></h3>
+                        <!--他没有粉丝、关注时  开始-->
+                        <div class="no-fans">
+                            <p><i></i>他还没有关注任何人</p>
+                        </div>
+                        <!--他没有粉丝、关注时  结束-->
+                        <div class="row fans-con" style="display:none">
+                            <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                            <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                            <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                            <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                             <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                            <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                             <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户名称啦啊</font>
+                            </a>
+                            <a href="javascript:;" class="col-sm-3">
+                                <cite>
+                                    <img src="http://share-ued.enjoyf.com/UED/%E6%9D%8E%E7%BA%A2%E8%89%B3/pc%E7%AB%AF/%E4%B8%AA%E4%BA%BA%E4%B8%AD%E5%BF%83%EF%BC%88%E5%93%8D%E5%BA%94%E5%BC%8F%EF%BC%89/img/user-icon-l.jpg" alt="img">
+                                </cite>
+                                <font>用户</font>
+                            </a>
+                        </div>
+                    </div>
+                    <!--他的粉丝  结束-->
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    <script type="text/javascript" src="http://static.joyme.com/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/action.js"></script>
+            <script type="text/javascript">
+                $(function(){
+                    var W = $(window).width();
+                    function changeW(config){
+                       var  ele = config.ele;
+                            ele.css({'width':W});
+                    }
+                    function changeHtml(config){
+                        var changeEle = config.moveEle,
+                            getEle = config.getEle,
+                            changehtml = changeEle.clone('true');
+                            changeEle.remove();
+                            changehtml.appendTo(getEle);
+                    }
+                    function changeClose(config){
+                        var ele1 = config.ele1,
+                            ele2 =config.ele2,
+                            activing = config.active;
+                            var oNavbar = $('.navbar-header').height(),
+                                oNotice = $('.notice-list').height();
+                                countH = oNavbar +　oNotice;
+                                console.log(oNavbar);
+                                 console.log(oNotice);
+                            ele1.click(function(){
+                                if(ele2.hasClass(activing)){
+                                    ele2.removeClass(activing);
+                                }
+                            });
+                    }
+
+                    if(W<768){
+                        changeW({ele:$('.notice-list')});
+                        changeHtml({moveEle:$('.setting-box .dropdown-menu'),getEle:$('.navbar-collapse')});
+                        changeClose({ele1:$('.dropdown'),ele2:$('.navbar-collapse'),active:'in'});
+                        changeClose({ele1:$('.navbar-collapse'),ele2:$('.dropdown'),active:'open'});
+                    }
+
+
+
+                });
+            </script>
+</body>
+</html>
