@@ -32,7 +32,7 @@
 	top: 2px;
 	width: 54px;
 	height: 54px;
-	border-color: none;
+	border: none;
 	border-radius: 50%;
 }
 .ui-name{
@@ -43,25 +43,33 @@
 	display: inline-block;
 	vertical-align: middle;
 }
-.user-sex{
-	width: 16px;
-	height: 16px;
 
-}
 .ui-top-decorate{
 	position: absolute;
 	z-index: 1;
 	
 }
+.ui-top-img .ui-vip{
+	position: absolute;
+	left: 8px;
+	bottom: 4px;
+	width: 23px;
+	height: 23px;
+	background: url(../images/ui-vip.png) 0 0 no-repeat;
+	z-index: 2;
+}
 .ui-name-box{
 	text-align: center;
 	margin-top: 7px;
 }
-.user-sex{
+.user-sexes{
+	display: inline-block;
 	width: 17px;
 	height: 17px;
+	margin-left: 5px;
 	background-image:url(../images/icon-mails.png); 
 	background-repeat: no-repeat;
+	vertical-align: middle;
 }
 .user-male{
 	background-position: 0 0;
@@ -108,11 +116,25 @@
 	color: #fff;
 	border-radius: 3px;
 	cursor: pointer;
+	position: relative;
 
 }
-.focus-btn.focused{
-	background-color: #e64545;
+.focus-btn.focus{
 
+	background-color: #e64545;
+}
+.focus-btn.focused{
+	background-color: #ccc;
+}
+.focus-btn.focused:hover:after{
+	content: "取消关注";
+	display: inline-block;
+	position: absolute;
+	width: 100%;
+	height: 100%;background-color: #ccc;
+	left:0;
+	top: 0;
+	border-radius: 3px;
 }
 .focus-btn.nofocused{
 	background-color: #ccc;

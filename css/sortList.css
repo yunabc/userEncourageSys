@@ -1,6 +1,7 @@
 /*大神榜*/
 .sort-list{
 	max-width:420px;
+	overflow: hidden;
 	position: relative;
 	background-color:#fff; 
 }
@@ -46,6 +47,7 @@
 	display: table;
 	padding: 20px;
 	width: 100%;
+	position: relative;
 }
 .opop-left{
 	display: table-cell;
@@ -62,10 +64,34 @@
 	position: relative;
 	vertical-align: top;
 }
+.sl-op-op::after{
+	content:"";
+	display: inline-block;
+	width:120%;
+	height: 1px;
+	background-color: #efefef;
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+}
 .op-r-h{
 	padding-left:10px;
 	line-height: 22px;
 	height: 22px; 
+}
+.hot-plan .op-r-h{
+	padding-left:0px; 
+}
+.hot-plan .op-r-s{
+	padding-left:0px; 
+	background:none;
+}
+.hot-plan .hot-num{
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	background:url(../images/hot-fire.png) 0 center no-repeat;
+	padding-left: 23px;
 }
 .op-r-h>a{
 	color: #1d7dff;
