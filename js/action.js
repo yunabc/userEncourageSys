@@ -24,8 +24,7 @@
 	Ocount();
 	// tab切换
 	function tabMenu(conf){
-		var tabMain = conf.tabMain,
-			tabTit = conf.tabTit,
+		var	tabTit = conf.tabTit,
 			iconChild = tabTit.children(),
 			tabCon = conf.tabcon,
 			activing = conf.activing;
@@ -34,9 +33,28 @@
 					conChild = $(this).parent(tabTit).siblings(tabCon).children();
 					$(this).addClass(activing).siblings(iconChild).removeClass(activing);
 					conChild.eq(_this).addClass(activing).siblings(conChild).removeClass(activing);
+          console.log($(this).parent(tabTit).siblings(tabCon))
 			});
 	}
-	tabMenu({tabMain:$('.tab-box'),tabTit:$('.tab-tit'),tabCon:$('.tab-con'),activing:"on"});
+  tabMenu({tabMain:$('.tab-box'),tabTit:$('.tab-tit'),tabCon:$('.tab-con'),activing:"on"});
+
+// 关注落脚页 首次 tab切换
+  $('.first-ui-list').on('click',function(e){
+    if(!$(this).hasClass('on')){
+      $(this).addClass('on').siblings('.first-ui-list').removeClass('on');
+    }
+  })
+// 我的积分
+$('.jifen-btn').click(function(){
+  var index = $(this).index();
+  $(this).addClass('on').siblings().removeClass('on');
+  $('.tab-change-li').eq(index).addClass('on').siblings().removeClass('on');
+})
+
+
+
+
+
 	// 登陆弹窗
 	function loginBox(config){
 		console.log(1)
