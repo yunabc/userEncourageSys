@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+      系统通知
+    </title>
+    <link rel="stylesheet" href="css/sortList.css">
+    <script type="text/javascript">
+    </script>
+  </head>
+  
+  <body>
+    div.
+
+
+    
+
+
+
+
+
+
+    <script type="text/javascript" src="http://static.joyme.com/js/jquery-1.9.1.min.js">
+    </script>
+
+    <script type="text/javascript" src="js/bootstrap.js">
+    </script>
+    <script type="text/javascript" src="js/action.js">
+    </script>
+      
+    <script>
+      $('.sort-btn').click(function(){
+        var index = $(this).index();
+        $(this).parents('.sort-list').find('.sort-btn').removeClass('on');
+        $(this).addClass('on');
+        $(this).closest('.sort-list').find('.sl-option').eq(index).addClass('on').siblings().removeClass('on');
+      })
+    </script>
+    <script type="text/javascript">
+      LoadMore.init();
+    </script>
+  </body>
+
+</html>

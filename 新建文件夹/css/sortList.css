@@ -110,10 +110,6 @@ ul,li,p{margin:0;padding: 0;}
 	line-height: 22px;
 	height: 22px; 
 }
-.new-plan .op-r-h,.new-plan .op-r-s{
-	height: auto; 
-	color: #4d4d4d;
-}
 .hot-plan .op-r-h{
 	padding-left:0px; 
 }
@@ -123,22 +119,16 @@ ul,li,p{margin:0;padding: 0;}
 }
 .hot-plan .hot-num{
 	position: absolute;
-	height: 22px;
 	right: 0px;
 	top: 10px;
-	background:url(../images/hot-fire.png) 0 0 no-repeat;
+	background:url(../images/hot-fire.png) 0 center no-repeat;
 	padding-left: 23px;
 }
-.best-plan .hot-num{
-	height: 24px;
-	background:url(../images/hot-fire.png) 0 -37px no-repeat;
-
-}
-.op-r-h>a,.op-r-s>a{
+.op-r-h>a{
 	color: #1d7dff;
 	text-decoration: none;
 }
-.op-r-h>a:hover,.op-r-s>a:hover{
+.op-r-h>a:hover{
 	text-decoration: underline;
 }
 .op-r-s{
@@ -147,26 +137,6 @@ ul,li,p{margin:0;padding: 0;}
 	height: 22px; 
 	color: #838383;
 	background: url(../images/icon-shengwang.png) 10px 3px no-repeat;
-}
-.best-plan .op-r-s{
-	line-height: 1.25;
-	overflow: hidden;
-	-webkit-line-clamp: 1;
-	line-clamp: 1;
-	-webkit-box-orient: vertical;
-	box-orient: vertical;
-	display: -webkit-box;
-	display: box;
-}
-.op-rs-citiao{
-  /*line-height: 1.25;
-  overflow: hidden;
-  -webkit-line-clamp: 1;
-  line-clamp: 1;
-  -webkit-box-orient: vertical;
-  box-orient: vertical;
-  display: -webkit-box;
-  display: box;*/
 }
 .op-r-sheng{
 	background-position: 10px 3px;
