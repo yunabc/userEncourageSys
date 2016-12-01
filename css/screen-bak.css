@@ -151,7 +151,7 @@ td.mw-label{
 .joyme-logo{
 	/*background: url(../images/logo.png) no-repeat;*/
     font-size: 1.3rem;
-	height:23px;
+	height:23px; width: 91px;
 	display: block;
 	float: left;
 	padding:0;
@@ -361,7 +361,7 @@ a:link{text-decoration: none;}
 }
 /* Landscape phone to portrait tablet */
 @media (max-width: 991px) {
-    html,body{width:100%;overflow-x:hidden;-webkit-overflow-scrolling : touch;}
+    html,body{width:100%;overflow-x:hidden;}
     body{padding-bottom:40px;}
     .container{width:100%;}
     .navbar-brand.joyme-logo{display: inline-block !important;margin:0; color: #fff; margin:10px 12px 9px !important;}
