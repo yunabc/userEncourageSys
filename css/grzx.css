@@ -46,12 +46,127 @@ body,html{font-family: '微软雅黑';}
     text-align: center;}
 .famous_like .sw_mb span em{ font-style: normal; color: #3d94ff;}
 .famous_like .sw_mb cite{ width: 1px; height: 29px; background-color: #bac4d5; display: inline-block;}
-.info0{ padding: 15px 10px;}
-.info0 .prostrate-num{ color: #4c4c4c;}
+.info0{ padding: 15px 20px;}
+.info0 .prostrate-num{ color: #4c4c4c; margin-top: 3px;}
 .info0 .list-prostraters{ position: relative;}
 .info0 .prostraters-direction{ width: 7px; height: 14px; position: absolute;}
 .info0 .prostraters-left{ background: url("../new-img/images/grzx_left_btn.png") no-repeat; top: 0; left: 0;}
 .info0 .prostraters-right{ background: url("../new-img/images/rgzx_right_btn.png") no-repeat; right: 0; top: 0;}
+
+// 横向切换
+
+
+.info0>li {
+    margin-left: 20px;
+    margin-top: 12px
+}
+
+
+// .info0 .info0-btns {
+// }
+
+// .info0 .info0-btn {
+//     background-color: #2f7ba1;
+//     width: 60px;
+//     display: inline-block;
+//     padding-left: 30px;
+//     background-image: url(http://wikicdn.joyme.alpha/skins/MediaWikiBootstrap/images/icons-info.png?00e04);
+//     background-repeat: no-repeat;
+//     color: #fff;
+//     font-size: 12px;
+//     line-height: 24px;
+//     border-radius: 2px;
+//     height: 24px
+// }
+
+// .info0 .thank-btn {
+//     background-position: 4px 5px
+// }
+
+// .info0 .prostrate-btn {
+//     background-position: 4px -22px
+// }
+
+// .info0 .contributer:hover {
+//     text-decoration: underline
+// }
+
+// .info0 .line-c {
+//     padding-top: 3px;
+//     color: #cbcbcb
+// }
+
+// .info0 .prostrate-num {
+//     display: inline-block;
+//     line-height: 24px;
+//     height: 24px;
+//     color: #2e7aa0;
+//     padding-left: 26px;
+//     background: url(http://wikicdn.joyme.alpha/skins/MediaWikiBootstrap/images/icons-info.png?00e04) left -50px no-repeat
+// }
+
+.info0 .prostraters-box {
+    height: 26px;
+    position: relative;
+    width: 100px;
+    overflow: hidden
+}
+
+.info0 .prostraters-ul {
+    position: absolute;
+    width: 105px
+}
+
+.info0 .prostraters-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1px solid #e3e3e3
+}
+
+.info0 .prostraters-num {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: #2f7ba1;
+    font-size: 12px;
+    line-height: 12px
+}
+
+.info0 .prostraters {
+    margin: 0 4px;
+    width: 26px;
+    height: 26px;
+    position: relative
+}
+
+.info0 .list-prostraters {
+    position: relative;
+    margin-left: 30px;
+}
+
+.info0 .prostraters-direction {
+    background-image: url(../images/icons-info.png);
+    background-repeat: no-repeat;
+    width: 8px;
+    position: absolute;
+    height: 26px;
+    background-color: #fff
+}
+
+.info0 .prostraters-left {
+    background-position: -5px -73px;
+    left: -12px;
+    top: 0
+}
+
+.info0 .prostraters-right {
+    background-position: -5px -102px;
+    right: -12px;
+    top: 0
+}
+// 横向切换结束
+
 
 @media (max-width: 991px){
     .info-r{ padding: 0px 10px 0 !important;}
