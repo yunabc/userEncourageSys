@@ -1,0 +1,205 @@
+/*大神榜*/
+html,body{
+	padding: 0;
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+.fl{
+	float: left;
+
+}
+.fr{
+	float: right;
+}
+.clearfix{
+	
+}
+.clearfix:after{
+	content: '';
+	display:block;
+	width: 100%;
+	height: 0;
+	clear: both;
+}
+h1, h2, h3, h4, h5, h6{margin:0;padding:0;}
+ul{list-style:none;}
+html{height:100%;}
+body{min-height:100%;position: relative; background-color:#fff; padding-bottom:113px;}
+
+ul,li,p{margin:0;padding: 0;}
+.sort-list{
+	box-sizing: border-box;
+	max-width:420px;
+	overflow: hidden;
+	position: relative;
+	background-color:#fff; 
+}
+.list-header0{
+	background-color:#eaedf6; 
+}
+.sort-list-header{
+	font-size: 18px;
+	line-height: 44px;
+	height: 44px;
+	margin-left: 20px;
+	color: #2a2a2a;
+
+}
+.sort-btns{
+	line-height: 44px;
+	color: #cececf;
+}
+.sort-btn{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 44px;
+	height: 44px;
+	padding:0 20px;
+	color: #4d4d4d;
+	cursor: pointer;
+}
+.sort-btn.on{
+	color: #2781fb;
+}
+.opop-item-img{
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+}
+.sl-option{
+	display: none;
+}
+.sl-option.on{
+	display: block;
+}
+.sl-op-op{
+	display: table;
+	padding: 20px;
+	width: 100%;
+	position: relative;
+}
+.opop-left{
+	display: table-cell;
+	width: 44px;
+	vertical-align: top;
+}
+.opop-l-link{
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+}
+.opop-right{
+	display: table-cell;
+	position: relative;
+	vertical-align: top;
+}
+.sl-op-op::after{
+	content:"";
+	display: inline-block;
+	width:120%;
+	height: 1px;
+	background-color: #efefef;
+	position: absolute;
+	bottom: 0px;
+	left: 20px;
+}
+.op-r-h{
+	padding-left:10px;
+	line-height: 22px;
+	height: 22px; 
+}
+.new-plan .op-r-h,.new-plan .op-r-s{
+	height: auto; 
+	color: #4d4d4d;
+}
+.hot-plan .op-r-h{
+	padding-left:0px; 
+}
+.hot-plan .op-r-s{
+	padding-left:0px; 
+	background:none;
+}
+.hot-plan .hot-num{
+	position: absolute;
+	height: 22px;
+	right: 0px;
+	top: 10px;
+	background:url(../images/hot-fire.png) 0 0 no-repeat;
+	padding-left: 23px;
+}
+.best-plan .hot-num{
+	height: 24px;
+	background:url(../images/hot-fire.png) 0 -37px no-repeat;
+
+}
+.op-r-h>a,.op-r-s>a{
+	color: #1d7dff;
+	text-decoration: none;
+}
+.op-r-h>a:hover,.op-r-s>a:hover{
+	text-decoration: underline;
+}
+.op-r-s{
+	padding-left:30px;
+	line-height: 22px;
+	height: 22px; 
+	color: #838383;
+	background: url(../images/icon-shengwang.png) 10px 3px no-repeat;
+}
+.best-plan .op-r-s{
+	line-height: 1.25;
+	overflow: hidden;
+	-webkit-line-clamp: 1;
+	line-clamp: 1;
+	-webkit-box-orient: vertical;
+	box-orient: vertical;
+	display: -webkit-box;
+	display: box;
+}
+.op-rs-citiao{
+  /*line-height: 1.25;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  display: -webkit-box;
+  display: box;*/
+}
+.op-r-sheng{
+	background-position: 10px 3px;
+}
+.op-r-jifen{
+	background-position: 10px -21px;
+}
+.op-r-xiaofei{
+	background-position: 10px -44px;
+
+}
+.list-num00{
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	right: 20px;
+	top: 8px;
+
+}
+.list-num1{
+	background: url(../images/list-num1.jpg) 0 no-repeat;
+	background-size: contain;
+}
+.list-num2{
+	background: url(../images/list-num2.jpg) 0 no-repeat;
+	background-size: contain;
+}
+.list-num3{
+	background: url(../images/list-num3.jpg) 0 no-repeat;
+	background-size: contain;
+}
+}
+.list-num00 img{
+	width: 100%;
+}
+/*大神榜 结束*/
