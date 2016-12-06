@@ -1,0 +1,247 @@
+.head-dec-def{ width: 106px; height: 106px; display: block; position: absolute; left: 0; top: 0; z-index: 0;
+    background-image: url("../new-img/images/info-user.png");background-position: center center;
+    background-repeat: no-repeat; background-size: cover;}
+.head-dec-01{background-image: url("../skin-images/1star-headdec-01.png");
+left:0; background-size: 121% 128%; top: 4px;
+}
+.head-dec-02{background-image: url("../skin-images/1star-headdec-02.png");
+    left:2px; background-size: 123% 127%; top: 3px;
+}
+.head-dec-03{background-image: url("../skin-images/1star-headdec-03.png");
+    left:-2px; background-size: 121% 127%; top: 2px;
+}
+.head-dec-04{background-image: url("../skin-images/1star-headdec-04.png");
+    left:-2px; background-size: 127% 127%; top: 2px;
+}
+.head-dec-05{ height:118px;background-image: url("../skin-images/2star-headdec-01.png");
+    left:0px; background-size: 150% 139%; top: 0px;
+}
+.head-dec-06{ height:118px;background-image: url("../skin-images/2star-headdec-02.png");
+    left:0px; background-size: 150% 139%; top: 0px;
+}
+.head-dec-07{ height:118px;background-image: url("../skin-images/3star-headdec-01.png");
+    left:0px; background-size: 164% 153%; top: 0px;
+}
+
+/*********************我的关注section 皮肤设置*******************/
+.fans-con a cite,.int-tj-l cite,.user-img cite,.list-item-l cite,.user-int-mess a{ position: relative; border-radius: inherit;-webkit-border-radius:inherit; border: none; overflow: visible;}
+.fans-con a cite img,.int-tj-l cite img,.user-img cite img,.user-int-mess a img,.list-item-l cite img,.user-int-mess a img,.user-int-mess a img{ border-radius: 50%; -webkit-border-radius: 50%;}
+.user-int-mess a img{ border: 2px solid #fff;}
+.focus-def,.dianzan-def{ width: 54px; height: 54px; display: block; position: absolute; z-index: 0; left: -2px; top: -2px; background-repeat: no-repeat;
+ background-position: center center; background-size: 125%;
+}
+.focus-dec-01{background-image: url("../skin-images/1star-headdec-01.png");left: -5px;
+    top: 0px;}
+.focus-dec-02{background-image: url("../skin-images/1star-headdec-02.png");}
+.focus-dec-03{background-image: url("../skin-images/1star-headdec-03.png");}
+.focus-dec-04{background-image: url("../skin-images/1star-headdec-04.png");}
+.focus-dec-05{background-image: url("../skin-images/2star-headdec-01.png");
+    left: -5px;
+    top: -2px; background-size: 143%;
+}
+.focus-dec-06{background-image: url("../skin-images/2star-headdec-02.png");left: -5px;
+    top: -1px; background-size: 143%;}
+.focus-dec-07{background-image: url("../skin-images/3star-headdec-01.png");left: -5px;
+    top: -2px; background-size: 143%;}
+.dianzan-def.focus-dec-01{ left: -5px; top: -3px;}
+.dianzan-def.focus-dec-02{ left: -4px; top: -3px;}
+.dianzan-def.focus-dec-03{ left: -5px; top: -3px;}
+.dianzan-def.focus-dec-04{ left: -6px; top: -4px;}
+.dianzan-def.focus-dec-05{ left: -5px; top: -1px;}
+.dianzan-def.focus-dec-06{ left: -5px; top: -1px;}
+.dianzan-def.focus-dec-07{ left: -5px; top: -3px;}
+/****************聊天对话头像装饰******************/
+.chat-xt-def{ width: 63px; height: 63px; display: block; position: absolute; z-index: 0; left: -2px; top: -2px; background-repeat: no-repeat;
+    background-position: center center; background-size: 125%;
+}
+.talk-r cite img, .talk-l cite img{-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;}
+.chat-xt-01{background-image: url("../skin-images/1star-headdec-01.png");left: -5px;
+    top: 0px;}
+.chat-xt-02{background-image: url("../skin-images/1star-headdec-02.png");}
+.chat-xt-03{background-image: url("../skin-images/1star-headdec-03.png"); left: -5px;}
+.chat-xt-04{background-image: url("../skin-images/1star-headdec-04.png"); left: -5px;}
+.chat-xt-05{background-image: url("../skin-images/2star-headdec-01.png");
+    left: -5px;
+    top: -2px; background-size: 138%;
+}
+.chat-xt-06{background-image: url("../skin-images/2star-headdec-02.png");left: -4px;
+    top: -2px;}
+.chat-xt-07{background-image: url("../skin-images/3star-headdec-01.png");left: -5px;
+    top: -2px;}
+/****************聊天对话头像装饰结束******************/
+.luojiaoye-def{ width: 66px; height: 66px; display: block; position: absolute; z-index: 0; left: -2px; top: -2px; background-repeat: no-repeat;
+    background-position: center center; background-size: 125%;
+}
+.luojiaoye-dec-01{background-image: url("../skin-images/1star-headdec-01.png");left: -3px;
+    top: 0px; background-size: 132%;}
+.luojiaoye-dec-02{background-image: url("../skin-images/1star-headdec-02.png"); top: -1px; left: -2px;}
+.luojiaoye-dec-03{background-image: url("../skin-images/1star-headdec-03.png"); top: 0; left: -4px;}
+.luojiaoye-dec-04{background-image: url("../skin-images/1star-headdec-04.png"); left: -5px;}
+.luojiaoye-dec-05{background-image: url("../skin-images/2star-headdec-01.png");
+    left: -5px;
+    top: 0px; background-size: 143%;
+}
+.luojiaoye-dec-06{background-image: url("../skin-images/2star-headdec-02.png");background-size: 143%;left: -5px;
+    top: 0px;}
+.luojiaoye-dec-07{background-image: url("../skin-images/3star-headdec-01.png");background-size: 143%;left: -5px;
+    top: 0px;}
+/**********************粉丝落脚页**************************/
+.fensi-def{ width: 80px; height: 80px; display: block; position: absolute; z-index: 0; left: -2px; top: -2px; background-repeat: no-repeat;
+    background-position: center center; background-size: 133%;}
+.fensi-dec-01{background-image: url("../skin-images/1star-headdec-01.png");left: -3px;
+    top:0px;}
+.fensi-dec-02{background-image: url("../skin-images/1star-headdec-02.png");left: -2px;
+    top:0px;}
+.fensi-dec-03{background-image: url("../skin-images/1star-headdec-03.png");left: -5px;
+    top:0px;}
+.fensi-dec-04{background-image: url("../skin-images/1star-headdec-04.png");
+    left: -5px;
+    top:-2px;
+}
+.fensi-dec-05{background-image: url("../skin-images/2star-headdec-01.png");
+    left: -5px;
+    top: -2px; background-size: 143%;
+}
+.fensi-dec-06{background-image: url("../skin-images/2star-headdec-02.png");left: -4px;
+    top: -1px; background-size: 143%;}
+.fensi-dec-07{background-image: url("../skin-images/3star-headdec-01.png");left: -5px;
+    top: -2px; background-size: 143%;}
+/**************************聊天气泡窗**********************/
+.talk-con .chat-group-def{ color: #2a2a2a; position: relative;}
+.talk-con .chat-group-def:before{ border-left: 0; border-top: 0; }
+.talk-con .chat-group-icon-def{ position: absolute; display: block;}
+.talk-con .chat-group-01{ background-color: #ddeef7;border: 1px solid #3d3d3d;}
+.talk-con .chat-group-01:before{background-color: #ddeef7;border-right: 1px solid #3d3d3d; border-bottom:1px solid #3d3d3d;}
+.talk-con .chat-group-01 i.icon1{ width: 42px; height: 20px;left: -23px; bottom: -2px;
+    background: url("../skin-images/chat/1star-chat-01-01.png") no-repeat;
+}
+.talk-con .chat-group-02{ background-color: #f9f2ff;border: 1px solid #794cb6;}
+.talk-con .chat-group-02:before{background-color: #f9f2ff;border-right: 1px solid #794cb6; border-bottom:1px solid #794cb6;}
+.talk-con .chat-group-02 i.icon1{
+    width: 27px;
+    height: 29px;
+    left: -10px;
+    bottom: -6px;
+    background: url("../skin-images/chat/1star-chat-02-01.png") no-repeat;
+}
+
+.talk-con .chat-group-03{ background-color: #f2fcff;border: 1px solid #74b1ef;}
+.talk-con .chat-group-03:before{background-color: #f2fcff;border-right: 1px solid #74b1ef; border-bottom:1px solid #74b1ef;}
+.talk-con .chat-group-03 i.icon1{
+    width: 21px;
+    height: 25px;
+    left: -17px;
+    top:-12px;
+    background: url("../skin-images/chat/1star-chat-03-01.png") no-repeat;
+}
+.talk-con .chat-group-03 i.icon2{
+    width: 21px;
+    height: 26px;
+    right: -17px;
+    top:-14px;
+    background: url("../skin-images/chat/1star-chat-03-02.png") no-repeat;
+}
+
+.talk-con .chat-group-04{ background-color: #f9f2ff;border: 1px solid #794cb6;}
+.talk-con .chat-group-04:before{background-color: #f9f2ff;border-right: 1px solid #794cb6; border-bottom:1px solid #794cb6;}
+.talk-con .chat-group-04 i.icon1{
+    width: 14px;
+    height: 16px;
+    left: -6px;
+    top:-8px;
+    background: url("../skin-images/chat/1star-chat-04-01.png") no-repeat;
+}
+.talk-con .chat-group-04 i.icon2{
+    width: 14px;
+    height: 16px;
+    right: -6px;
+    top:-8px;
+    background: url("../skin-images/chat/1star-chat-04-02.png") no-repeat;
+}
+
+.talk-con .chat-group-05{
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(226, 241, 253, 1)), to(rgba(152, 211, 252, 1)));
+    border: 1px solid #89c7f8;}
+.talk-con .chat-group-05:before{background-color: #c5e6fe;border-right: 1px solid #89c7f8; border-bottom:1px solid #89c7f8;}
+.talk-con .chat-group-05 i.icon1{
+    width: 53px;
+    height: 16px;
+    left: -1px;
+    top:-11px;
+    background: url("../skin-images/chat/2star-chat-01-01.png") no-repeat;
+}
+.talk-con .chat-group-05 i.icon2{
+    width: 118px;
+    height: 13px;
+    right: -16px;
+    top:auto; bottom: -11px;
+    background: url("../skin-images/chat/2star-chat-01-02.png") no-repeat;
+}
+
+.talk-con .chat-group-06{
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(255, 251, 242, 1)), to(rgba(255, 224, 171, 1)));
+    border: 1px solid #ffe0ab;}
+.talk-con .chat-group-06:before{background-color: #ffeed3;border-right: 1px solid #ffe0ab; border-bottom:1px solid #ffe0ab;}
+.talk-con .chat-group-06 i.icon1{
+    width: 12px;
+    height: 11px;
+    left: -2px;
+    top:-5px;
+    background: url("../skin-images/chat/2star-chat-02-01.png") no-repeat;
+}
+.talk-con .chat-group-06 i.icon2{
+    width: 22px;
+    height: 16px;
+    right: -2px;
+    top:-7px; bottom: auto;
+    background: url("../skin-images/chat/2star-chat-02-02.png") no-repeat;
+}
+.talk-con .chat-group-06 i.icon3{
+    width: 25px;
+    height: 15px;
+    left: 0px;
+    top:auto; bottom: -7px;
+    background: url("../skin-images/chat/2star-chat-02-03.png") no-repeat;
+}
+.talk-con .chat-group-06 i.icon4{
+    width: 8px;
+    height: 8px;
+    right: 0px;
+    top:auto; bottom: -6px;
+    background: url("../skin-images/chat/2star-chat-02-04.png") no-repeat;
+}
+
+.talk-con .chat-group-07{
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(rgba(218, 212, 255, 1)), to(rgba(181, 188, 254, 1)));
+    border: 1px solid #68677f; background-color: #bcc1ff;}
+.talk-con .chat-group-07:before{background-color: #bbc0ff;border-right: 1px solid #68677f; border-bottom:1px solid #68677f;}
+.talk-con .chat-group-07 i.icon1{
+    width: 23px;
+    height: 14px;
+    left: -8px;
+    top:-5px; z-index: 1;
+    background: url("../skin-images/chat/3star-chat-01-01.png") no-repeat;
+}
+.talk-con .chat-group-07 i.icon2{
+    width: 23px;
+    height: 14px;
+    right: -8px;
+    top:-4px; z-index: 1;
+    background: url("../skin-images/chat/3star-chat-01-02.png") no-repeat;
+}
+.talk-con .chat-group-07 i.icon3{
+    width: 33px;
+    height: 17px;
+    left:50%; top:-11px; z-index: 1; margin-left:-12px;background: url("../skin-images/chat/3star-chat-01-04.png") no-repeat;
+}
+.talk-con .chat-group-07 i.icon4{ width: 100%; height: 4px; top: 0; left: 0; z-index:0;background-image: url("../skin-images/chat/3star-chat-01-03.png"); background-repeat: repeat-x;}
+/*************************聊天对话左侧***********************/
+.talk-con .talk-l .chat-group-def:before{ border-right: 0; border-bottom: 0; }
+.talk-con .talk-l .chat-group-icon-def{ position: absolute; display: block;}
+.talk-con .talk-l .chat-group-01:before{border-left: 1px solid #3d3d3d; border-top:1px solid #3d3d3d;}
+.talk-con .talk-l .chat-group-02:before{border-left: 1px solid #794cb6; border-top:1px solid #794cb6;}
+.talk-con .talk-l .chat-group-03:before{border-left: 1px solid #74b1ef; border-top:1px solid #74b1ef;}
+.talk-con .talk-l .chat-group-04:before{border-left: 1px solid #794cb6; border-top:1px solid #794cb6;}
+.talk-con .talk-l .chat-group-05:before{border-left: 1px solid #89c7f8; border-top:1px solid #89c7f8;}
+.talk-con .talk-l .chat-group-06:before{border-left: 1px solid #ffe0ab; border-top:1px solid #ffe0ab;}
+.talk-con .talk-l .chat-group-07:before{border-left: 1px solid #68677f; border-top:1px solid #68677f;}

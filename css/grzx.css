@@ -8,11 +8,12 @@ body,html{font-family: '微软雅黑';}
 .info-edit-num cite.day-num i em{ font-size: 24px; font-style: normal;}
 .info-edit-num{ margin-left: 50px; margin-top: 50px;}
 
-.user-login{ width: 106px; height: 106px; margin-left: 42px; overflow: inherit; padding: 0; position: relative; background: url("../new-img/images/grzx_tx_bg.png") no-repeat;}
-.user-login img{ width: 106px; height: 106px;}
+.user-login{ width: 106px; height: 106px; margin-left: 42px; overflow: inherit; padding: 0; position: relative; background-image: none;}
+.user-login img{ width: 94px; height: 94px; position: absolute; left: 6px; top: 6px; z-index: 1;}
 .info-user{ margin: 25px 10px 0 0;}
 .user-login cite,.link-set,.user-intro-con .user-sign{ background: url("../new-img/images/small-icon-together.png") no-repeat;}
-.user-login cite{background-position: -116px -0px; width: 28px; height: 28px; display: block; position: absolute; bottom:4px; right:-5px;}
+.user-login cite{background-position: -116px -0px; width: 28px; height: 28px; display: block; position: absolute;
+    bottom:4px; right:-5px; z-index: 2;}
 .nickname{ font-size: 16px; color: #2a2a2a; max-width: 180px;}
 .link-set{background-position: -24px -0px; width: 17px; height: 17px;display: block;position: absolute; top: 4px; right: -20px;}
 .user-des{ position: relative; overflow: inherit;}
@@ -53,7 +54,7 @@ body,html{font-family: '微软雅黑';}
 .info0 .prostraters-left{ background: url("../new-img/images/grzx_left_btn.png") no-repeat; top: 0; left: 0;}
 .info0 .prostraters-right{ background: url("../new-img/images/rgzx_right_btn.png") no-repeat; right: 0; top: 0;}
 
-// 横向切换
+/* 横向切换*/
 
 
 .info0>li {
@@ -62,48 +63,6 @@ body,html{font-family: '微软雅黑';}
 }
 
 
-// .info0 .info0-btns {
-// }
-
-// .info0 .info0-btn {
-//     background-color: #2f7ba1;
-//     width: 60px;
-//     display: inline-block;
-//     padding-left: 30px;
-//     background-image: url(http://wikicdn.joyme.alpha/skins/MediaWikiBootstrap/images/icons-info.png?00e04);
-//     background-repeat: no-repeat;
-//     color: #fff;
-//     font-size: 12px;
-//     line-height: 24px;
-//     border-radius: 2px;
-//     height: 24px
-// }
-
-// .info0 .thank-btn {
-//     background-position: 4px 5px
-// }
-
-// .info0 .prostrate-btn {
-//     background-position: 4px -22px
-// }
-
-// .info0 .contributer:hover {
-//     text-decoration: underline
-// }
-
-// .info0 .line-c {
-//     padding-top: 3px;
-//     color: #cbcbcb
-// }
-
-// .info0 .prostrate-num {
-//     display: inline-block;
-//     line-height: 24px;
-//     height: 24px;
-//     color: #2e7aa0;
-//     padding-left: 26px;
-//     background: url(http://wikicdn.joyme.alpha/skins/MediaWikiBootstrap/images/icons-info.png?00e04) left -50px no-repeat
-// }
 
 .info0 .prostraters-box {
     height: 26px;
@@ -165,10 +124,11 @@ body,html{font-family: '微软雅黑';}
     right: -12px;
     top: 0
 }
-// 横向切换结束
+/* 横向切换结束*/
 
 
 @media (max-width: 991px){
+    .user-login cite{ background: url("../new-img/images/m-vip-icon.png") no-repeat; background-size: cover;}
     .info-r{ padding: 0px 10px 0 !important;}
     .user-login{ margin-left: 0;}
     .nickname{ font-size: 16px; color: #fff; font-weight: bold;}
@@ -193,6 +153,7 @@ body,html{font-family: '微软雅黑';}
     .active-num span{ width: 23%; height: 100%; display: inline-block; text-align: center; vertical-align: middle;}
     .active-num cite{ width: 2px; height: 27px; display: inline-block; background-color: #f3f3f3; vertical-align: middle;}
     .nickname{ max-width: 100px;}
+    .info0 .list-prostraters{ margin-top: 0;}
 }
 @media (max-width: 400px) and (min-width: 320px){
     .user-intro-con{ width: 164px;}
