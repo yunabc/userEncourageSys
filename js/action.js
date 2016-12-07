@@ -37,7 +37,19 @@
 			});
 	}
   tabMenu({tabMain:$('.tab-box'),tabTit:$('.tab-tit'),tabCon:$('.tab-con'),activing:"on"});
-
+// 个人中心首页 横向切换
+if($('.prostraters-box').length>0){
+  $.horizontalMove({
+      parent: '.prostraters-box',
+      sonUl: '.prostraters-ul',
+      // 滑动的块
+      curShowNum: 3,
+      // 显示区内的个数；
+      leftBtn: '.prostraters-left',
+      rightBtn: '.prostraters-right',
+      sonMargin: 8
+  });
+}
 // 关注落脚页 首次 tab切换
   $('.first-ui-list').on('click',function(e){
     if(!$(this).hasClass('on')){

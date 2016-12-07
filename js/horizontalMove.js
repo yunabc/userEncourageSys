@@ -55,7 +55,6 @@
 				if(this.index == 0){
 					this.leftBtn.hide();
 				}
-				console.log(this.curShowNum,this.sonUlChildLen);
 				if((this.index + this.curShowNum) >= (this.sonUlChildLen)){
 					this.rightBtn.hide();
 				}

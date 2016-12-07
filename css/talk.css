@@ -2,10 +2,10 @@
 .talking-box  h3{height:58px;line-height:50px;}
 .talking-box  h3 a{color:#2a2a2a;font-size:14px;line-height: 22px;}
 .talking-box  h3 a i{font-size:16px;}
-.talk-box{border:1px solid #efefef;-webkit-border-radius:5px;-moz-border-radius:5px;-ms-border-radius:5px;-o-border-radius:5px;border-radius:5px;height:620px;overflow: hidden;}
+.talk-box{border:1px solid #efefef;border-radius:5px;height:620px;overflow: hidden;}
 .talk-tit{font-size:0;padding:15px 30px;background-color: #f5f5f5;}
 .talk-tit cite,.talk-tit span{display: inline-block;vertical-align: middle;font-size:16px;color:#2a2a2a;}
-.talk-tit cite{width:38px;height:38px;line-height: 38px;text-align: center;background-color: #3988fb;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;margin-right:10px;}
+.talk-tit cite{width:38px;height:38px;line-height: 38px;text-align: center;background-color: #3988fb;border-radius:50%;margin-right:10px;}
 
 
 .talk-tit cite .fa{color:#fff;vertical-align: 1px;}
@@ -17,7 +17,7 @@
 .talk-r,.talk-l{font-size:0;position: relative;overflow: hidden;min-height:55px;margin-bottom:10px;}
 .talk-r{text-align: right;padding:0 85px 0 30px;}
 .talk-l{text-align: left;padding:0 30px 0 85px;}
-.talk-r cite,.talk-l cite{vertical-align: top;width:55px;height:55px;overflow: hidden;-webkit-border-radius:50%;-moz-border-radius:50%;-ms-border-radius:50%;-o-border-radius:50%;border-radius:50%;position: absolute;top:0px;}
+.talk-r cite,.talk-l cite{vertical-align: top;width:55px;height:55px;overflow: hidden;border-radius:50%;position: absolute;top:0px;}
 .talk-l cite{left:30px;}
 .talk-r cite img,.talk-l cite img{width:100%;}
 .talk-r cite{right:30px;}
@@ -45,7 +45,7 @@
 .talk-send{position: relative;padding-top:10px;}
 .talk-text .i-error{line-height: 30px;font-size:12px;color:red;display: none;position: absolute;bottom:10px;left:30px;}
 .talk-text.on .i-error{display: block;}
-.talk-btn{width:90px;height:30px;line-height: 28px;text-align: center;background-color: #fff;color:#2a2a2a;border:1px solid #c1c1c1;-webkit-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.talk-btn{width:90px;height:30px;line-height: 28px;text-align: center;background-color: #fff;color:#2a2a2a;border:1px solid #c1c1c1;border-radius:5px;}
 .cancel-flo{position: absolute;top:0;right:0;bottom:0;left:0;background-color: rgba(0,0,0,.5);color:#fff;font-size:14px;text-align: center;line-height: 154px;display: none;}
 .cancel-flo.on{display: block;}
 @media(max-width:767px){
